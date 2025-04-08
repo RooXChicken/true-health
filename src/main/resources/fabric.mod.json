@@ -8,7 +8,7 @@
 		"RooXChicken"
 	],
 	"contact": {
-		"homepage": "https://rooxchicken.com/"
+		"homepage": "https://loveroo.org"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/true-health/icon.png",
@@ -25,11 +25,8 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.14.21",
-		"minecraft": "~1.20.1",
-		"java": ">=17",
+		"minecraft": ">=1.21",
+		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

@@ -8,13 +8,14 @@ import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.font.TextRenderer;
 import net.minecraft.client.gui.DrawContext;
+import net.minecraft.client.render.RenderTickCounter;
 
 public class TrueHealthOverlay implements HudRenderCallback {
 
 	private TextRenderer textRenderer;
 	
 	@Override
-	public void onHudRender(DrawContext drawContext, float tickDelta)
+	public void onHudRender(DrawContext drawContext, RenderTickCounter tickDelta)
 	{
 		if(!TrueHealth.renderTrueHealth)
 			return;
