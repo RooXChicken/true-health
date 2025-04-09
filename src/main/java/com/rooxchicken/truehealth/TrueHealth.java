@@ -1,4 +1,4 @@
-package com.rooxchicken;
+package com.rooxchicken.truehealth;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +13,8 @@ public class TrueHealth implements ModInitializer {
     public static final String MOD_ID = "truehealth";
     
     public static boolean renderTrueHealth = true;
+    public static boolean renderTrueSaturation = true;
+    public static boolean addAbsorption = true;
 
 	@Override
 	public void onInitialize() {

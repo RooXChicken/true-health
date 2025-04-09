@@ -1,6 +1,6 @@
-package com.rooxchicken.client;
+package com.rooxchicken.truehealth.client;
 
-import com.rooxchicken.event.KeyInputHandler;
+import com.rooxchicken.truehealth.event.KeyInputHandler;
 
 //import com.rooxchicken.truehealth.networking.PingTester;
 

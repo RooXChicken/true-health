@@ -1,4 +1,5 @@
 {
 	"key.category.truehealth": "True Health",
-	"key.toggle_true_health": "Toggle True Health Text"
+	"key.toggle_true_health": "Toggle True Health Text",
+	"key.toggle_true_saturation": "Toggle True Saturation Text"
 }

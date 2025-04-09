@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "true-health",
-	"version": "${version}",
+	"version": "1.2.1",
 	"name": "True Health",
-	"description": "Shows your true health (the decimal value)",
+	"description": "Shows your true health (the decimal value) & Saturation!",
 	"authors": [
 		"RooXChicken"
 	],
@@ -15,10 +15,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.rooxchicken.TrueHealth"
+			"com.rooxchicken.truehealth.TrueHealth"
 		],
 		"client": [
-			"com.rooxchicken.client.TrueHealthClient"
+			"com.rooxchicken.truehealth.client.TrueHealthClient"
 		]
 	},
 	"mixins": [
